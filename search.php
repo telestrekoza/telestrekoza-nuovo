@@ -1,4 +1,4 @@
-<?php get_template_part( 'top' ); ?>
+<?php get_template_part( 'header' ); ?>
 
 <div id="content-container">
 	<div id="left-column">

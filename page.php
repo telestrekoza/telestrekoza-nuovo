@@ -1,4 +1,4 @@
-<?php get_template_part( 'top' ); ?>
+<?php get_template_part( 'header' ); ?>
 
 <div id="content-container" class="yui3-g">
     <div id="main-column" class="yui3-u">
