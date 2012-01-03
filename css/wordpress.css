@@ -1,0 +1,165 @@
+/* Wordpress generates these css classes and ids. */
+.clearfix 
+{
+	clear: both;
+}
+li ul {
+	margin: 0 !important;
+	padding: 0 !important;	
+}
+aside * ul { list-style-type: none; color: #666666; }
+.alignleft { float: left; }
+.alignright { float: right; }
+
+/* Two-column layout on a 960px grid */
+
+/* Modular Scale - http://modularscale.com/scale/?px1=13&px2=18&ra1=1.618&ra2=0
+	----------------------
+	13px @ 1:1.618	
+	18px @ 1:1.618	
+	----------------------*/
+ul, ol {
+	margin-left: 13px;
+}
+	
+#container {
+    /*
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34.033px;
+    margin-bottom: 34.033px;
+    */
+}
+#main, #header-container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 34.033px; */
+    margin-bottom: 34.033px;
+	/* padding-left: 18.000px; */
+}
+#footer {
+	clear: both;
+	margin-top: 34.033px;
+	margin-bottom: 34.033px;
+}
+/*
+#content-container, #comments-container {
+	margin-top: 34.033px;
+	margin-bottom: 34.033px;
+	
+}
+*/
+
+#right-column{
+    width: 600px;
+}
+
+#left-column {
+    width: 360px;
+}
+
+/*
+#right-column, #right-header {
+    float:left;
+    width:322.985px;
+    margin-left: 34.033px;
+}
+#left-column, #left-header {
+    width: 522.546px;
+    float: left;
+}
+#left-column article {
+    margin-bottom: 34.033px;
+}
+#page-list, #breadcrumbs, aside section ul, .textwidget, .tagcloud {
+    margin-bottom: 18.000px;
+}
+.post-meta, .commentlist li
+{
+    margin-top: 18.000px;
+    margin-bottom: 18.000px;
+}
+.post-header
+{
+    margin-top: 8.035px;
+    margin-bottom: 8.035px;
+}
+.children li
+{
+	padding-left: 18.000px;
+}
+*/
+
+/*
+#nav-menu
+{
+	margin-top: 8.035px;
+	margin-bottom: 8.035px;
+}
+#nav-menu ul, #nav-menu ol
+{
+	margin: 0;
+	padding-left: 0;		
+}
+#nav-menu ul li
+{
+	margin-right: 8.035px;
+}
+*/
+
+/* flatten lists in navigation menus */
+/*
+#nav-menu ul li, .commentlist, .children
+{
+  display: inline;
+  list-style-type: none; 
+}
+*/
+
+.comment-awaiting-moderation
+{
+	color: #CC6600;
+}
+
+
+
+/* comments */
+#respond { 
+	margin-top: 18px;
+}
+#commentform p input, #commentform p textarea {
+	display: block;	
+}
+.comment-author .avatar {
+	float: left;
+	padding-right: 13.000px;
+}
+
+/* text styles */
+.post blockquote {
+	margin: 0 auto;
+	padding-left: 34.033px;
+	padding-right: 34.033px;
+	quotes: "\201C" "\201D";
+}
+.post blockquote:before { 
+	content: open-quote; 
+	font-weight: bold; 
+	float: left; 
+	margin-left: -29.124px; 
+	font-size: 34.033px;
+	color: #888;
+}
+ 
+.post-content p, .post-content ul, .post-content ol, .comment-body p, #commentform p
+{
+    margin: 1em 0;
+    padding: 0;
+    line-height: 1.385em;
+}
+.post-content ul, .post-content ol
+{
+	margin-left: 29.124px;
+}

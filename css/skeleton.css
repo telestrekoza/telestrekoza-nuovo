@@ -1,0 +1,241 @@
+/**
+ * Skeleton CSS 
+ * Note that URIs that are used in the stylesheet are relative to the stylesheet, not the page that 
+ * references the stylesheet. You need only specify this relative directory in the CSS, like so:
+ *
+ *	
+ */
+
+
+/* Body classes */
+a {
+	color: #1E7EC3;
+}
+.home {}
+.blog {}
+.single {}
+.category {}
+.archive {}
+.date {}
+.right {
+	text-align: right;
+}
+
+
+/* Structural IDs and classes */
+#container
+{
+    background: #eaeaea;
+    /* background: #5F5E5E url(/static/images/custom/body-bg.gif) 0 0 repeat-x; */
+}
+
+    #container > section
+    {
+        /* background: url('../img/blackmamba.png') repeat-x scroll left top; */
+        background: #9A9A9A;
+    }
+    
+    #container header {
+    	background: -webkit-gradient(linear, left top, left bottom, from(#438DE3), to(#70B3D9));
+		background: -moz-linear-gradient(top, #438DE3, #70B3D9);
+		background: -o-linear-gradient(top,#438DE3,#70B3D9);
+		background: linear-gradient(top,#438DE3,#70B3D9);
+    	/* background: url('/static/th5/bg-header_a.gif') repeat scroll left top; */
+    }
+    
+    #container header .header-item {
+		color: #ccc;
+		border-bottom: 1px solid #1F5FA5;
+	}
+	
+	#container header .header-item-nav {
+		background-color: #2A75CB; /*#212121; */
+	}
+	
+	#container header .header-item-logo {
+		padding: 30px 0;
+	}
+	
+	#container header .header-item .header-item-container {
+		width: 940px;
+		margin: 0 auto;
+		padding: 5px 0;
+	}
+
+	#container header .header-item #header-logo-container h2{
+		display: none;
+	}
+	
+	#header-container
+	{
+		width: 940px;
+		margin: 0 auto;
+        
+        /* background: url('../img/header_bg_light.png') repeat-y scroll left top transparent; */
+        /*
+        border-top: 1px solid #AAA;
+        border-bottom: 1px solid #AAA;
+        */
+	}
+		#left-header
+		{
+            /* background-color: #D1D1D1; */
+		}
+        
+            #left-header h1, #left-header h1 a {
+                /* height: 105px; */ 
+                /*
+                font-family: 'Play', sans-serif;
+                font-size: 32px;
+                color: white;
+                text-shadow: #000 2px 2px 1px;
+                text-decoration: none;
+            	*/
+            }
+		
+		#right-header
+		{
+		}
+
+			#searchform
+			{
+			}
+
+		#top-nav-container
+		{
+		}
+		
+			#nav-menu
+			{
+			}
+		
+			#top-pagination
+			{
+			}
+
+	#main-menu-line {
+		border-bottom: 1px solid #C5C5C5;
+		background: url('/static/th5/bg-primary-nav.gif') repeat-x;
+		height: 35px;
+	}
+	
+		#main-menu-line #main-menu
+		{
+			width: 940px;
+			margin: 0 auto;
+		}
+			#main-menu .menu-main-container
+			{
+				background: url('/static/th5/bg-primary-nav-sep.gif') left bottom no-repeat;
+				padding-left: 1px;
+			}
+		
+	#main 
+	{
+        border-bottom: 1px solid #C5C5C5;
+        /* background-color: #eaeaea; */
+	}
+	
+	#main header {
+		background: none;
+	}
+
+		#content-container
+		{
+			background-color: #eaeaea;
+        	width: 940px;
+			margin: 0 auto;
+			padding: 5px 0;
+		}
+		
+			#main-column
+			{
+				width: 540px;
+				/* border: 1px solid #DDD; */
+				border: 1px solid #ddd;
+        		border-radius: 2px 2px;
+				padding: 10px 10px;
+				margin: 30px 0;
+				background: white;
+				box-shadow: 0 0 3px rgba(153,153,153,0.1);
+			}
+			
+				.post 
+				{
+				}
+			
+					.post-header 
+					{
+						font-size: 26px;
+						font-family: "Myriad Pro", Arial, Sans-serif;
+						color: #444;
+					}
+					
+					.post-header h1 a
+					{
+						text-decoration: none;
+						color: #444;
+					}
+					
+					.post-header h1 a:hover
+					{
+						color: #333;
+					}
+			
+					.post-content
+					{
+						color: #555;
+					}
+					
+					.post-footer 
+					{
+					}
+				
+				#comments-container
+				{
+				}
+				
+					.commentlist
+					{
+					}
+				
+					#respond
+					{
+					}
+			
+			#right-column
+			{
+				margin: 40px 0;
+				width: 240px;
+				padding: 0 0 0 30px;
+			}
+			
+				#dynamic-sidebar
+				{
+				}
+				
+				#integration
+				{
+				}
+				
+
+		footer
+		{
+			color: #white;
+			border-top: 1px solid #fff;
+			background: -webkit-gradient(linear, left top, left bottom, from(#70B3D9), to(#438DE3));
+			background: -moz-linear-gradient(top, #70B3D9, #438DE3);
+			background: -o-linear-gradient(top,#70B3D9,#438DE3);
+			background: linear-gradient(top,#70B3D9,#438DE3);
+		}
+	
+
+/* Pictures in posts */
+.caption 
+{
+
+}
+
+#right-header section[role=head-menu]{
+    text-align: right;
+}
