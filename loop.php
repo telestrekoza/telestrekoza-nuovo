@@ -15,11 +15,11 @@
 	
 		     <footer>
 				<div class='post-footer yui3-g'>
-					<div class="yui3-u">
+					<div class="yui3-u-1-2">
 						<span class="cats"><?php the_category(', ') ?></span>
 						<span class="posted"><?php the_author_posts_link(); ?></span>
 					</div>
-					<div class="comments yui3-u right">
+					<div class="comments yui3-u-1-2 right">
 					<?php if ( is_home() ) {
 						comments_popup_link('Нет комментариев', '1 Комментарий', '% Комментариев');
 				     }

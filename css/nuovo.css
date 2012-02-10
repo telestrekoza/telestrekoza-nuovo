@@ -265,6 +265,7 @@ article:first-child {
 	padding-top: 0;
 }
 article footer {
+	margin-top: 2em;
 	background: none;
 }
 
@@ -312,4 +313,45 @@ article footer {
 	color: #eaeaea;
 	text-decoration: none;
 	text-shadow: 0 -1px 0 #1F5FA5;
+}
+
+.post-content a, #right-column a, .post-footer .comments a {
+	color: #1E7EC3;
+	text-decoration: none;
+}
+
+.post-content a:hover, #right-column a:hover {
+	text-decoration: underline;
+}
+
+.post-footer a {
+	color: #666;
+	text-decoration: none;
+}
+
+.post-footer a:hover {
+	text-decoration: underline;
+}
+
+.post-footer .cats {
+	padding-left: 17px;
+	margin-right: 3em;
+	background-image: url('/static/nuovo/img/category11.png');
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+
+}
+
+.post-footer .posted {
+	padding-left: 17px;
+	background-image: url('/static/nuovo/img/author.png');
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+}
+
+.post-footer .comments a {
+	padding-left: 17px;
+	background-image: url('/static/nuovo/img/comment.png');
+	background-repeat: no-repeat;
+	background-position: 0 2px;
 }
